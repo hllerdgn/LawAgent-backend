@@ -1,0 +1,46 @@
+# ════════════════════════════════════════════════
+# 1. PYTHON & BACKEND (FastAPI / Mürşit / RAG)
+# ════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+env/
+server_log.txt
+nohup.out
+
+# ════════════════════════════════════════════════
+# 2. FRONTEND (React + Vite + TypeScript)
+# ════════════════════════════════════════════════
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# ════════════════════════════════════════════════
+# 3. AI & VERİ TABANI (Qdrant / Model Chunks)
+# ════════════════════════════════════════════════
+# Eğer yerel bir vektör veri tabanı veya model dosyası varsa
+qdrant_storage/
+*.index
+*.pt
+*.bin
+*.pkl
+
+# ════════════════════════════════════════════════
+# 4. İŞLETİM SİSTEMİ & ARAÇLAR (Colab / Drive)
+# ════════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+
+# ════════════════════════════════════════════════
+# 5. DOCKER (Hugging Face İçin Gerekli Olmayanlar)
+# ════════════════════════════════════════════════
+.dockerignore
